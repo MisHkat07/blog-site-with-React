@@ -7,7 +7,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandblog/demo/wp-content/uploads/2015/11/aboutme.jpg"
+          src="https://media-exp1.licdn.com/dms/image/C5603AQHN1sKrh59rNw/profile-displayphoto-shrink_200_200/0/1643548829067?e=1657152000&v=beta&t=e2nvILFUgZE1b13kFqxBMxU0rbIoCJF6sPmClC523g8"
           alt=""
         />
         <p>
@@ -20,38 +20,38 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Life">
-              Life
+              Next JS
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Music">
-              Music
+              Typrscript
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Sport">
-              Sport
+              React JS
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Style">
-              Style
+              Javascript
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Tech">
-              Tech
+             Node JS
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Cinema">
-              Cinema
+              Express
             </Link>
           </li>
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
           <i className="sidebarIcon fab fa-facebook-square"></i>
           <i className="sidebarIcon fab fa-instagram-square"></i>
